@@ -15,27 +15,73 @@
         <div class="navbar bg-[#1090D81A] shadow-sm">
             <div class="navbar-start">
 
-              <div class="">
-                <a class="btn btn-ghost text-xl">Interactive
-                </a>
-                <p class="text-[#111111CC] text-sm px-4">Geometry Genius</p>
-              </div>
+                <div class="">
+                    <a class="btn btn-ghost text-xl">Interactive
+                    </a>
+                    <p class="text-[#111111CC] text-sm px-4">Geometry Genius</p>
+                </div>
 
             </div>
 
             <div class="navbar-end">
-              <a class="btn bg-[#1090D8] text-white ">Blog</a>
+                <a class="btn bg-[#1090D8] text-white ">Blog</a>
             </div>
-          </div>
+        </div>
     </header>
 
-    <main>
+    <main class="m-10">
 
-       
+        <div class="flex gap-4">
+            <!--Geometry section-->
+            <div class="">
+
+
+                <!--Triangle section-->
+                <div class="triangle">
+                    <div class="card bg-base-100 w-96 shadow-sm">
+                        <figure class="px-10 pt-10">
+                            <img src="images/triangle.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Triangle</h2>
+                            <p class="text-[#414141]">Area (A) = 0.5 x b x h</p>
+                            <div class="gap-3 flex">
+                                <div class="">
+                                    <input type="number" placeholder="base"
+                                        class="p-2 bg-[#F1F1F1] border-none rounded-md" id="triangle-base">
+                                    <p>cm</p>
+                                </div>
+                                <div class="">
+                                    <input type="number" placeholder="height"
+                                        class="p-2 bg-[#F1F1F1] border-none rounded-md" id="triangle-height"> cm
+                                </div>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn bg-[#1090D8] text-white  " id="triangle-calc">Calculate
+
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Calculation section section-->
+            <div class="border border-solid w-full" id="calcuation-area">
+
+                <div class="">
+                    <h4 class="text-center"><u>Area Calculation</u></h4>
+                    <p id="result" class="font-semibold text-center text-xl py-10"></p>
+                </div>
+            </div>
+        </div>
+
+
 
     </main>
 
-
+    <script src="calculation_function.js"></script>
 </body>
 
 </html>
