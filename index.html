@@ -33,7 +33,7 @@
 
         <div class="flex gap-4">
             <!--Geometry section-->
-            <div class="">
+            <div class="flex gap-5">
 
 
                 <!--Triangle section-->
@@ -48,7 +48,7 @@
                             <div class="gap-3 flex">
                                 <div class="">
                                     <input type="number" placeholder="base"
-                                        class="p-2 bg-[#F1F1F1] border-none rounded-md" id="triangle-base">
+                                        class="p-2 bg-[#F1F1F1] border-none rounded-md" id="rect-wide">
                                     <p>cm</p>
                                 </div>
                                 <div class="">
@@ -64,6 +64,65 @@
                         </div>
                     </div>
                 </div>
+
+
+                <!--rectangle section-->
+                <div class="rectangle">
+                    <div class="card bg-base-100 w-96 shadow-sm">
+                        <figure class="px-10 pt-10">
+                            <img src="images/rectangle.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Rectangle</h2>
+                            <p class="text-[#414141]">Area (A) = w x l</p>
+                            <div class="gap-3 flex">
+                                <div class="">
+                                    <input type="number" placeholder="wide"
+                                        class="p-2 bg-[#F1F1F1] border-none rounded-md" id="rec-wide">
+                                    <p>cm</p>
+                                </div>
+                                <div class="">
+                                    <input type="number" placeholder="length"
+                                        class="p-2 bg-[#F1F1F1] border-none rounded-md" id="rec-length"> cm
+                                </div>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn bg-[#1090D8] text-white  " id="rec-calc">Calculate
+
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- rhombus section -->
+                <div class="rhombus">
+                    <div class="card bg-base-100 w-96 shadow-sm">
+                        <figure class="px-10 pt-10">
+                            <img src="images/rhombus.png" alt="Rhombus" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Rhombus</h2>
+                            <p class="text-[#414141]">Area (A) = 0.5 × d₁ × d₂</p>
+                            <div class="gap-3 flex">
+                                <div>
+                                    <input type="number" placeholder="diagonal 1"
+                                        class="p-2 bg-[#F1F1F1] border-none rounded-md" id="rhombus-d1">
+                                    <p>cm</p>
+                                </div>
+                                <div>
+                                    <input type="number" placeholder="diagonal 2"
+                                        class="p-2 bg-[#F1F1F1] border-none rounded-md" id="rhombus-d2">
+                                    <p>cm</p>
+                                </div>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn bg-[#1090D8] text-white" id="rhombus-calc">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
 
