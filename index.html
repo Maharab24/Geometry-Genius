@@ -136,6 +136,95 @@
             </div>
         </div>
 
+        <div class="flex gap-4 my-4">
+            <!-- pentagon section -->
+            <div class="pentagon">
+                <div class="card bg-base-100 w-96 shadow-sm">
+                    <figure class="px-10 pt-10">
+                        <img src="images/pentagon.png" alt="Pentagon" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Pentagon</h2>
+                        <p class="text-[#414141]">Area (A) = (5/2) × a × h</p>
+                        <div class="gap-3 flex">
+                            <div>
+                                <input type="number" placeholder="side (a)"
+                                    class="p-2 bg-[#F1F1F1] border-none rounded-md" id="pentagon-side">
+                                <p>cm</p>
+                            </div>
+                            <div>
+                                <input type="number" placeholder="apothem (h)"
+                                    class="p-2 bg-[#F1F1F1] border-none rounded-md" id="pentagon-apothem">
+                                <p>cm</p>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn bg-[#1090D8] text-white" id="pentagon-calc">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ellipse section -->
+            <div class="ellipse">
+                <div class="card bg-base-100 w-96 shadow-sm">
+                    <figure class="px-10 pt-10">
+                        <img src="images/ellipse.png" alt="Ellipse" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Ellipse</h2>
+                        <p class="text-[#414141]">Area (A) = π × a × b</p>
+                        <div class="gap-3 flex">
+                            <div>
+                                <input type="number" placeholder="axis a"
+                                    class="p-2 bg-[#F1F1F1] border-none rounded-md" id="ellipse-a">
+                                <p>cm</p>
+                            </div>
+                            <div>
+                                <input type="number" placeholder="axis b"
+                                    class="p-2 bg-[#F1F1F1] border-none rounded-md" id="ellipse-b">
+                                <p>cm</p>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn bg-[#1090D8] text-white" id="ellipse-calc">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- parallelogram section -->
+            <div class="parallelogram">
+                <div class="card bg-base-100 w-96 shadow-sm">
+                    <figure class="px-10 pt-10">
+                        <img src="images/parallelogram.png" alt="Parallelogram" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Parallelogram</h2>
+                        <p class="text-[#414141]">Area (A) = base × height</p>
+                        <div class="gap-3 flex">
+                            <div>
+                                <input type="number" placeholder="base" class="p-2 bg-[#F1F1F1] border-none rounded-md"
+                                    id="parallelogram-base">
+                                <p>cm</p>
+                            </div>
+                            <div>
+                                <input type="number" placeholder="height"
+                                    class="p-2 bg-[#F1F1F1] border-none rounded-md" id="parallelogram-height">
+                                <p>cm</p>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn bg-[#1090D8] text-white" id="parallelogram-calc">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
 
 
     </main>
